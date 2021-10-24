@@ -1,0 +1,126 @@
+*,*:before,*:after {
+       padding: 0;
+       margin: 0;
+       border: 0;
+}
+.html,body {
+       height: 100%;
+       font-family: Merriweather ,Georgia, 'Times New Roman', Times, serif;
+}
+.LoL {
+       text-align: center;
+       Font-weight: bolder;
+       color:rgb(176, 226, 219);
+       font-size: 24px;
+}
+.Block1 {
+       font-display: flex;
+       font-size: 18px;
+}
+/*Убрать полосу прокрутки у элемента*/
+.element::-webkit-scrollbar {
+       width: 0;
+     }
+     
+     /*Убрать полосу прокрутки для всей страницы*/
+     ::-webkit-scrollbar {
+       width: 0;
+     }
+     .displayed {
+       height: 300px;
+       width: 250px;
+       display: flex;
+       margin-left: auto;
+       margin-right: auto;
+       border: 20px solid #000000;
+}
+.Gog {
+       display: flex;
+       width: auto;
+       margin: 0 auto;
+       padding: 15px;
+       letter-spacing: 2px;
+       border: 3px solid #000000;
+       color: #000000;
+       font-weight: 600;
+       margin-left: 200px;
+       margin-right: 200px;
+       line-height: 1.8;
+}
+.LoL{
+       display: table;
+       width: auto;
+       margin: 0 auto;
+       padding: 15px;
+       letter-spacing: 2px;
+       border: 2px solid #000000;
+       color: #ffffff;
+       background-color: #000000;
+       font-weight: 600;
+       margin-bottom: 18px;
+     }
+header {
+       width: 100%;
+       height: 90px;
+       color: #ffffff;
+       background-color: black;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+} 
+.vuv {
+     font-size: 25px;  
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 600;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+
+
+footer {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: auto;
+       background: #000000;
+       margin: 0 auto;
+       text-align: center;
+}
+footer a {
+       color: #ffffff;
+       font-size: 14px;
+       margin-left: 10px;
+}
+footer nav a:hover {
+     border-bottom: 1px solid white;
+}
+a {
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       text-decoration: none;
+       color: #ffffff;
+}
+.sas {
+       font-size: 17px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.Gog1 {
+       display: flex;
+       width: auto;
+       margin: 0 auto;
+       padding: 15px;
+       letter-spacing: 2px;
+       border: 3px solid #000000;
+       color: #000000;
+       font-weight: 600;
+       margin-left: 200px;
+       margin-right: 200px;
+       line-height: 1.8;
+       margin-bottom: 35px;
+}
+ 
